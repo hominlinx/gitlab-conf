@@ -71,6 +71,7 @@ services:
     - GITLAB_INCOMING_EMAIL_ADDRESS=reply@example.com
 
     - GITLAB_BACKUP_SCHEDULE=daily
+    - GITLAB_BACKUP_EXPIRY=259200
     - GITLAB_BACKUP_TIME=01:00
 
     - SMTP_ENABLED=false
